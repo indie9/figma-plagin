@@ -1,0 +1,9 @@
+{
+  "name": "Figma Plugin with React",
+  "api": "1.0.0",
+  "main": "./plugin.js",
+  "ui": "./ui.html",
+  "editorType": [
+    "figma"
+  ]
+}
