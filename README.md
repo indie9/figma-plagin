@@ -167,11 +167,12 @@ _App/module.css_
         },
         
         plugins: [
-                new HtmlWebpackPlugin({
+            new HtmlWebpackPlugin({
                 template: "./src/ui.html",
                 filename: "ui.html",
                 inlineSource: ".(js)$",
                 inject: "body",
+                cache: false,
             }),
             new HtmlWebpackInlineSourcePlugin(HtmlWebpackPlugin),
             new CopyWebpackPlugin({

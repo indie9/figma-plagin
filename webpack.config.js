@@ -59,6 +59,7 @@ module.exports = (env, argv) => ({
             filename: "ui.html",
             inlineSource: ".(js)$",
             inject: "body",
+            cache: false
         }),
         new HtmlWebpackInlineSourcePlugin(HtmlWebpackPlugin),
         new CopyWebpackPlugin({
