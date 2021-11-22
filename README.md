@@ -1,3 +1,7 @@
+#Figma plugin API человеческим языком
+###Часть 3
+##Подключаем React
+
 install project
     
     npm i 
@@ -9,10 +13,6 @@ development build project
 publish build project
 
     npm run build
-
-#Figma plugin API человеческим языком
-###Часть 3
-##Подключаем React
 
 [<< Часть 2 Взаимодействие с Figma](https://habr.com/ru/post/589819/)
 
