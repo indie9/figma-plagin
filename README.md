@@ -1,8 +1,6 @@
-#Figma plugin API человеческим языком
-
-###Часть 3
-
-##Подключаем React
+# Figma plugin API человеческим языком
+### Часть 3
+## Подключаем React
 
 install project
     
