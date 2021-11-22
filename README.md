@@ -64,7 +64,7 @@ publish build project
     import App from './App';
     
     ReactDom.render(
-        App,
+        <App />,
         document.querySelector('#figma-plugin-container')
     );
 
