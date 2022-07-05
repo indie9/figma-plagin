@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDom from "react-dom";
+import App from "./App";
 
-ReactDom.render(
-    <App />,
-    document.querySelector('#figma-plugin-container')
-);
+onmessage = (event) => {
+  console.log(event);
+};
+ReactDom.render(<App />, document.querySelector("#figma-plugin-container"));
